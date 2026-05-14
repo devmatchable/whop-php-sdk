@@ -3,8 +3,6 @@
 [![CI](https://github.com/devmatchable/whop-php-sdk/actions/workflows/ci.yml/badge.svg)](https://github.com/devmatchable/whop-php-sdk/actions/workflows/ci.yml)
 [![PHP](https://img.shields.io/badge/PHP-8.4%2B-777BB4?logo=php&logoColor=white)](https://www.php.net/)
 [![PHPStan](https://img.shields.io/badge/PHPStan-level%20max-2a6496)](https://phpstan.org/)
-[![Infection MSI](https://img.shields.io/badge/Infection%20MSI-97%25-brightgreen)](https://infection.github.io/)
-[![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen)](#development)
 
 Framework-agnostic PHP client for the [Whop](https://whop.com) API. Built on pure PSR
 interfaces (PSR-18 / PSR-17 / PSR-7) — drop it into any PHP 8.4+ project without
