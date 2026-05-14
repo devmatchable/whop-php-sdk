@@ -1,0 +1,6 @@
+/vendor/
+/.phpunit.cache/
+/.php-cs-fixer.cache
+/infection.log
+composer.lock
+/.idea/
