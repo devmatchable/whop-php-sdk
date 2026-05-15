@@ -3,13 +3,17 @@
     "description": "Framework-agnostic PHP SDK for the Whop API.",
     "type": "library",
     "license": "MIT",
+    "homepage": "https://github.com/devmatchable/whop-php-sdk",
     "keywords": ["whop", "api", "sdk", "psr-18", "psr-7", "payments"],
     "authors": [
-        { "name": "Tolu Tourialai", "email": "tolu@matchable.dev" }
+        { "name": "Tolu Tourialai", "email": "tolu@matchable.dev", "role": "Lead developer & Maintainer" },
+        { "name": "Jeroen Moonen",  "email": "jeroen@matchable.dev", "role": "Co-Maintainer" }
     ],
     "support": {
         "issues": "https://github.com/devmatchable/whop-php-sdk/issues",
-        "source": "https://github.com/devmatchable/whop-php-sdk"
+        "source": "https://github.com/devmatchable/whop-php-sdk",
+        "docs": "https://github.com/devmatchable/whop-php-sdk/wiki",
+        "security": "https://github.com/devmatchable/whop-php-sdk/security/policy"
     },
     "require": {
         "php": "^8.4",
@@ -51,5 +55,10 @@
         }
     },
     "minimum-stability": "stable",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.x-dev"
+        }
+    }
 }
