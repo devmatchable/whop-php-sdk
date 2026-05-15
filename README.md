@@ -38,6 +38,14 @@ composer require nyholm/psr7 symfony/http-client
 Any other PSR-18 client (`guzzlehttp/guzzle`, etc.) and any PSR-7/17 implementation
 work as drop-in replacements.
 
+> [!NOTE]
+> The SDK uses `Symfony\Component\HttpClient\Psr18Client` — the PSR-18 adapter shipped
+> by `symfony/http-client`. This is intentionally different from Symfony's framework-native
+> `HttpClientInterface`, which has a non-PSR shape and isn't compatible with this SDK (or
+> any other PSR-18 consumer). The two interfaces ship from the same package but solve
+> different problems: `HttpClientInterface` is for Symfony-native consumers; `Psr18Client`
+> bridges the same underlying client to the PSR-18 standard the SDK type-hints against.
+
 ## Quick start
 
 ```php
