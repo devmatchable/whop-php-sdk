@@ -4,6 +4,11 @@
 [![PHP](https://img.shields.io/badge/PHP-8.4%2B-777BB4?logo=php&logoColor=white)](https://www.php.net/)
 [![PHPStan](https://img.shields.io/badge/PHPStan-level%20max-2a6496)](https://phpstan.org/)
 
+> [!WARNING]
+> **This package is in active development and is not yet ready for production use.**
+> The public API may change at any time before version `1.0.0` is released.
+> Please do not depend on it in production projects until a stable release is published.
+
 Framework-agnostic PHP client for the [Whop](https://whop.com) API. Built on pure PSR
 interfaces (PSR-18 / PSR-17 / PSR-7) — drop it into any PHP 8.4+ project without
 pulling in a framework or opinionated HTTP stack.
