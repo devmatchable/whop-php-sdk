@@ -38,20 +38,6 @@ composer require nyholm/psr7 symfony/http-client
 Any other PSR-18 client (`guzzlehttp/guzzle`, etc.) and any PSR-7/17 implementation
 work as drop-in replacements.
 
-**Before the package is listed on Packagist**, add a VCS repository to your
-`composer.json` first, then run the `composer require` command above:
-
-```json
-{
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/devmatchable/whop-php-sdk"
-        }
-    ]
-}
-```
-
 ## Quick start
 
 ```php
